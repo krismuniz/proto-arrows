@@ -58,6 +58,10 @@ export function getCurve (start: Point, end: Point, options?: { flip?: boolean }
   return { start: start, control1: controlPoints[0], control2: controlPoints[1], end: end }
 }
 
+/**
+ * Given two boxes, produce a cubic bezier curve that
+ * links them.
+ */
 export function getBoxToBoxCurve (startBox: Box, endBox: Box): CubicBezier {
   const { startPoint, endPoint } = getIdealBoxSides(startBox, endBox)
 
