@@ -10,7 +10,8 @@
     "lint": "eslint src/**/*.ts",
     "watch": "parcel watch",
     "build": "parcel build",
-    "test": "jest"
+    "test": "jest",
+    "release": "npm run test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "keywords": [
     "arrow",
@@ -19,7 +20,16 @@
     "prototyping",
     "svg"
   ],
-  "author": "Kristian Muñiz",
+  "author": "Kristian Muñiz <contact@krismuniz.com> (https://krismuniz.com)",
+  "homepage": "https://github.com/krismuniz/proto-arrows",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krismuniz/proto-arrows"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.5",
