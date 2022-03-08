@@ -20,8 +20,8 @@ import {
 
 export function Arrow() {
   const curve = getCurve({ x: 128, y: 128 }, { x: 256, y: 256 })
-  const svgPath = getCubicBezierSVGPath(bezierCurve)
-  const endAngle = interpolateCubicBezierAngle(bezierCurve, 1)
+  const svgPath = getCubicBezierSVGPath(curve)
+  const endAngle = interpolateCubicBezierAngle(curve, 1)
 
   return (
     <svg
