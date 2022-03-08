@@ -1,6 +1,6 @@
 # `proto-arrows`
 
-[![License:MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT) ![Type Declarations](https://img.shields.io/npm/types/combi.svg?style=flat-square)
+[![License:MIT](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT) [![build](https://github.com/krismuniz/proto-arrows/actions/workflows/ci.yml/badge.svg)](https://github.com/krismuniz/proto-arrows/actions/workflows/ci.yml) ![Type Declarations](https://img.shields.io/npm/types/combi.svg)
 
 A set of utility functions for drawing beautiful arrows using cubic bezier paths. Inspired by [`perfect-arrows`](https://github.com/steveruizok/perfect-arrows).
 
