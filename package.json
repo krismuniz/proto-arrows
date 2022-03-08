@@ -1,6 +1,6 @@
 {
   "name": "proto-arrows",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utility functions for drawing beautiful arrows using cubic bezier paths",
   "source": "src/index.ts",
   "main": "dist/index.js",
