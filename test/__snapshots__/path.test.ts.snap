@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getBoxToBoxCurve returns the right curve given two boxes 1`] = `
+Object {
+  "control1": Object {
+    "x": 0,
+    "y": 2,
+  },
+  "control2": Object {
+    "x": 0,
+    "y": 2,
+  },
+  "end": Object {
+    "x": 0,
+    "y": 2,
+  },
+  "start": Object {
+    "x": 0,
+    "y": 2,
+  },
+}
+`;
+
+exports[`getBoxToBoxCurve returns the right curve given two boxes 2`] = `
+Object {
+  "control1": Object {
+    "x": 4,
+    "y": 2,
+  },
+  "control2": Object {
+    "x": 4,
+    "y": 2,
+  },
+  "end": Object {
+    "x": 4,
+    "y": 2,
+  },
+  "start": Object {
+    "x": 4,
+    "y": 2,
+  },
+}
+`;
+
+exports[`getBoxToBoxCurve returns the right curve given two boxes 3`] = `
+Object {
+  "control1": Object {
+    "x": 2,
+    "y": 0,
+  },
+  "control2": Object {
+    "x": 2,
+    "y": 0,
+  },
+  "end": Object {
+    "x": 2,
+    "y": 0,
+  },
+  "start": Object {
+    "x": 2,
+    "y": 0,
+  },
+}
+`;
+
+exports[`getBoxToBoxCurve returns the right curve given two boxes 4`] = `
+Object {
+  "control1": Object {
+    "x": 2,
+    "y": 4,
+  },
+  "control2": Object {
+    "x": 2,
+    "y": 4,
+  },
+  "end": Object {
+    "x": 2,
+    "y": 4,
+  },
+  "start": Object {
+    "x": 2,
+    "y": 4,
+  },
+}
+`;
+
+exports[`getBoxToBoxCurve returns the right curve given two boxes 5`] = `
+Object {
+  "control1": Object {
+    "x": 0,
+    "y": 2,
+  },
+  "control2": Object {
+    "x": 0,
+    "y": 2,
+  },
+  "end": Object {
+    "x": 0,
+    "y": 2,
+  },
+  "start": Object {
+    "x": 0,
+    "y": 2,
+  },
+}
+`;
+
+exports[`getCurve returns the right curve given two points 1`] = `
+Object {
+  "control1": Object {
+    "x": 0,
+    "y": 5,
+  },
+  "control2": Object {
+    "x": 10,
+    "y": 5,
+  },
+  "end": Object {
+    "x": 10,
+    "y": 10,
+  },
+  "start": Object {
+    "x": 0,
+    "y": 0,
+  },
+}
+`;
+
+exports[`getCurve returns the right curve given two points 2`] = `
+Object {
+  "control1": Object {
+    "x": 0,
+    "y": -5,
+  },
+  "control2": Object {
+    "x": -10,
+    "y": -5,
+  },
+  "end": Object {
+    "x": -10,
+    "y": -10,
+  },
+  "start": Object {
+    "x": 0,
+    "y": 0,
+  },
+}
+`;
+
+exports[`getCurve returns the right curve given two points 3`] = `
+Object {
+  "control1": Object {
+    "x": 0,
+    "y": 5,
+  },
+  "control2": Object {
+    "x": 0,
+    "y": 5,
+  },
+  "end": Object {
+    "x": 0,
+    "y": 10,
+  },
+  "start": Object {
+    "x": 0,
+    "y": 0,
+  },
+}
+`;
+
+exports[`getCurve returns the right curve given two points 4`] = `
+Object {
+  "control1": Object {
+    "x": 0,
+    "y": 0,
+  },
+  "control2": Object {
+    "x": 10,
+    "y": 0,
+  },
+  "end": Object {
+    "x": 10,
+    "y": 0,
+  },
+  "start": Object {
+    "x": 0,
+    "y": 0,
+  },
+}
+`;

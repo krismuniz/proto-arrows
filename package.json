@@ -1,0 +1,44 @@
+{
+  "name": "proto-arrows",
+  "version": "0.1.0",
+  "description": "Utility functions for drawing beautiful arrows using cubic bezier paths",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "keywords": [
+    "arrow",
+    "path",
+    "cubic-bezier",
+    "prototyping",
+    "svg"
+  ],
+  "author": "Kristian Muñiz",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@parcel/packager-ts": "^2.3.2",
+    "@parcel/transformer-typescript-types": "^2.3.2",
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.5.1",
+    "parcel": "^2.3.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
