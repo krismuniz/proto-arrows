@@ -11,7 +11,8 @@
     "watch": "parcel watch",
     "build": "parcel build",
     "test": "jest",
-    "release": "npm run test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+    "prepare": "npm run build",
+    "release": "npm run lint && npm run test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "keywords": [
     "arrow",
