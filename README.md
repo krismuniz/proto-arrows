@@ -2,6 +2,8 @@
 
 [![License:MIT](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT) [![build](https://github.com/krismuniz/proto-arrows/actions/workflows/ci.yml/badge.svg)](https://github.com/krismuniz/proto-arrows/actions/workflows/ci.yml) ![Type Declarations](https://img.shields.io/npm/types/combi.svg)
 
+<img src="https://user-images.githubusercontent.com/860507/157191885-aae88e0d-590f-479f-97e6-fa5bd1abd772.gif" width="256" height="256" />
+
 A set of utility functions for drawing beautiful arrows using cubic bezier paths. Inspired by [`perfect-arrows`](https://github.com/steveruizok/perfect-arrows).
 
 Why `proto-arrows`? Because cubic bezier curves look delicious for prototyping software like Sketch or Figma. So, why not make a library that simplifies the process of drawing them too?
