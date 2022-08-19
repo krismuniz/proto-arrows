@@ -25,13 +25,6 @@ export function yDistance (pointA: Point, pointB: Point): number {
   return Math.abs(pointA.y - pointB.y)
 }
 
-export enum Side {
-  LEFT = 'left',
-  RIGHT = 'right',
-  TOP = 'top',
-  BOTTOM = 'bottom'
-}
-
 /**
  * Find the ideal points to draw an edge
  * between the two boxes by finding the
