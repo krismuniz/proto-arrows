@@ -13,6 +13,25 @@ export function getBoxBounds (box: Box): [Point, Point, Point, Point] {
   ]
 }
 
+export function euclideanDistance (pointA: Point, pointB: Point): number {
+  return Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y)
+}
+
+export function xDistance (pointA: Point, pointB: Point): number {
+  return Math.abs(pointA.x - pointB.x)
+}
+
+export function yDistance (pointA: Point, pointB: Point): number {
+  return Math.abs(pointA.y - pointB.y)
+}
+
+export enum Side {
+  LEFT = 'left',
+  RIGHT = 'right',
+  TOP = 'top',
+  BOTTOM = 'bottom'
+}
+
 /**
  * Find the ideal points to draw an edge
  * between the two boxes by finding the
@@ -34,7 +53,7 @@ export function getIdealBoxSides (
 
   for (const pointA of startPts) {
     for (const pointB of endPts) {
-      const distance = Math.hypot(pointA.x - pointB.x, pointA.y - pointB.y)
+      const distance = euclideanDistance(pointA, pointB)
 
       if (distance < minDistanceSource[0]) {
         minDistanceSource = [distance, pointA]

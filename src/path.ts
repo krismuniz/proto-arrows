@@ -27,31 +27,39 @@ export function getCubicBezierSVGPath (bezier: CubicBezier): string {
 }
 
 /**
+ * Controls how "curvy" the path is by offsetting
+ * the control points from the ideal points.
+ */
+const CONTROL_POINT_OFFSET_RATE = 0.75
+
+/**
  * Given two points, produce a cubic bezier curve that
  * links them.
  */
 export function getCurve (start: Point, end: Point, options?: { flip?: boolean }): CubicBezier {
-  const center = getLineCenter(start, end)
+  const dX = (end.x - start.x) * (options?.flip ? CONTROL_POINT_OFFSET_RATE : 0)
+  const dY = (end.y - start.y) * (options?.flip ? 0 : -CONTROL_POINT_OFFSET_RATE)
+
   const controlPoints: [Point, Point] =
     options?.flip
       ? [
           {
-            x: center.x,
-            y: start.y
+            x: start.x + dX,
+            y: start.y - dY
           },
           {
-            x: center.x,
-            y: end.y
+            x: end.x - dX,
+            y: end.y + dY
           }
         ]
       : [
           {
-            x: start.x,
-            y: center.y
+            x: start.x + dX,
+            y: start.y - dY
           },
           {
-            x: end.x,
-            y: center.y
+            x: end.x - dX,
+            y: end.y + dY
           }
         ]
 

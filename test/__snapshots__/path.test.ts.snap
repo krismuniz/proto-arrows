@@ -109,11 +109,11 @@ exports[`getCurve returns the right curve given two points 1`] = `
 Object {
   "control1": Object {
     "x": 0,
-    "y": 5,
+    "y": 7.5,
   },
   "control2": Object {
     "x": 10,
-    "y": 5,
+    "y": 2.5,
   },
   "end": Object {
     "x": 10,
@@ -130,11 +130,11 @@ exports[`getCurve returns the right curve given two points 2`] = `
 Object {
   "control1": Object {
     "x": 0,
-    "y": -5,
+    "y": -7.5,
   },
   "control2": Object {
     "x": -10,
-    "y": -5,
+    "y": -2.5,
   },
   "end": Object {
     "x": -10,
@@ -151,11 +151,11 @@ exports[`getCurve returns the right curve given two points 3`] = `
 Object {
   "control1": Object {
     "x": 0,
-    "y": 5,
+    "y": 7.5,
   },
   "control2": Object {
     "x": 0,
-    "y": 5,
+    "y": 2.5,
   },
   "end": Object {
     "x": 0,
